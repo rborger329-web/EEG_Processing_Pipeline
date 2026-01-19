@@ -37,8 +37,8 @@ The code is intended for reproducible EEG data analysis and interim reporting.
 1. **Set the paths in the script**
 
 ```matlab
-addpath(genpath('C:\Users\---\Desktop\BME499_EEGProcessing\eeglab_current')); % EEGLAB path 
-data_path = 'C:\Users\---\Desktop\BME499_EEGProcessing\ses_001_sub_02';        % EEG dataset path (changed for each dataset)
+addpath(genpath('C:\Users\---\Desktop\EEGProcessing\eeglab_current')); % EEGLAB path 
+data_path = 'C:\Users\---\Desktop\EEGProcessing\ses_001_sub_02';        % EEG dataset path (changed for each dataset)
 ```
 
 2. **Run the main script**
