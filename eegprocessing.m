@@ -1,6 +1,7 @@
 %% ===============================
 % EEG PROCESSING PIPELINE
 % OpenNeuro – derivatives/eegprep
+% link: https://openneuro.org/datasets/ds002158/versions/1.0.2
 % Author: Ria Borger
 % ===============================
 
@@ -11,12 +12,12 @@ savepath
 eeglab
 
 %% -------- 1. Add EEGLAB to path --------
-eeglab_path = 'C:\Users\ria20\Desktop\BME499_EEGProcessing\eeglab_current';
+eeglab_path = 'C:\Users\---\Desktop\EEGProcessing\eeglab_current';
 addpath(eeglab_path);
 eeglab; close;   % initialize EEGLAB without GUI
 
 %% -------- 2. Define EEG data path --------
-data_path = 'C:\Users\ria20\Desktop\BME499_EEGProcessing\ses_001_sub_02';
+data_path = 'C:\Users\---\Desktop\EEGProcessing\ses_001_sub_02';
 
 % Find .set file
 files = dir(fullfile(data_path,'*.set'));
@@ -164,4 +165,5 @@ save(fullfile(results_path,'BandPower.mat'), 'band_power');
 save(fullfile(results_path,'Entropy.mat'), 'entropy_vals');
 
 disp('All results saved successfully.');
+
 
