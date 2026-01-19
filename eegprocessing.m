@@ -7,7 +7,7 @@
 
 clear; clc; close all;
 
-addpath(genpath('C:\Users\ria20\Desktop\BME499_EEGProcessing\eeglab_current'));
+addpath(genpath('C:\Users\---\Desktop\_EEGProcessing\eeglab_current'));
 savepath
 eeglab
 
@@ -165,5 +165,6 @@ save(fullfile(results_path,'BandPower.mat'), 'band_power');
 save(fullfile(results_path,'Entropy.mat'), 'entropy_vals');
 
 disp('All results saved successfully.');
+
 
 
